@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tags.Dependancies">
+      <class name="tags.Params">
         <methods>
-          <include name="openApp"/>
-          <include name="search"/>
-          <include name="login"/>
-          <include name="logout"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="openweb"/>
         </methods>
-      </class> <!-- tags.Dependancies -->
+      </class> <!-- tags.Params -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
