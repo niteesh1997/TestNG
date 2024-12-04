@@ -9,6 +9,18 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
+/*
+  	STCM-Suite,Test,Class, Method  	
+  	beforeSuite
+	beforeTest
+	beforeClass
+	BeforeMethod
+	afterMethod
+	afterClass
+	afterTest
+	afterSuite
+*/
+
 public class TagDemo {
 	@BeforeSuite
 	public void beforeSuite() {
@@ -25,7 +37,7 @@ public class TagDemo {
 	@Test(priority = 1)
 	public void login() {
 		System.out.println("login successfull 0");
-		int i= 1/0;
+		
 	}
 	@BeforeMethod
 	public void beforeMethod() {
