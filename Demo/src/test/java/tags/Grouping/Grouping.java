@@ -1,4 +1,4 @@
-package tags;
+package tags.Grouping;
 
 import org.testng.annotations.Test;
 
